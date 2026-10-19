@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Власні токени дизайну (відповідь на питання 5, Tailwind v4).
+   Кожна змінна --color-* / --font-* автоматично дає утиліти:
+   bg-ink, text-signal, border-brand, font-display тощо. */
+@theme {
+  --color-ink: #16232b;
+  --color-brand: #0b6e8a;
+  --color-signal: #d9480f;
+  --font-display: Georgia, "Times New Roman", serif;
+}
